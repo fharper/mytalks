@@ -1,6 +1,6 @@
 background-color: #FFFFFF
 text: #00000, alignment(right)
-header: #00000, line-height(18), text-scale(3.0)
+header: #00000, line-height(18), text-scale(2.9)
 footer-style: #777777, alignment(right), line-height(8), text-scale(0.5), Avenir Next Regular
 code: alignment(left), Monako, line-height(1.5)
 build-lists: true
@@ -14,7 +14,6 @@ Are you a data geek? Do you love to monitor the performance of your application?
 -->
 
 # Datadog on steroids
-
 
 **Frédéric Harper**
 Technical Evangelist - Datadog
