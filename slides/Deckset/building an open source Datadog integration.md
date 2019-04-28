@@ -5,7 +5,15 @@ footer-style: #777777, alignment(right), line-height(8), text-scale(0.5), Avenir
 code: alignment(left), Monako, line-height(1.5)
 build-lists: true
 
-# datadog on steroid
+<!---
+
+Datadog on steroids
+
+Are you a data geek? Do you love to monitor the performance of your application? You may even already use Datadog to help you with this daunting task and you definitely have checked the list of built-in integration of over 250 systems, apps and services. Still, you feel a bit sad as one of the platform you are using isn't there? Put a smile on that face my friend, as I'll show you how to create your own custom integration, in less than 15 minutes! Don't believe me, come to my talk to see how to put Datadog on steroids!
+
+-->
+
+# Datadog on steroids
 
 
 **Frédéric Harper**
