@@ -176,4 +176,4 @@ fred.dev
 
 ![original](../images/fharper.jpg)
 
-[.footer: ![](images/unlicense.png) my talks are release under unlicense]
+[.footer: ![](../images/unlicense.png) my talks are release under unlicense]
