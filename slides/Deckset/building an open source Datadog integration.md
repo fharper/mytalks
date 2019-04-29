@@ -149,7 +149,7 @@ cp ~/Documents/code/datadog/integrations-extras/awesome/datadog_checks/awesome/d
 
 ^
 celebrate
-go to https://app.datadoghq.com/check/summary
+go to [https://app.datadoghq.com/check/summary](https://app.datadoghq.com/check/summary)
 
 ---
 
@@ -177,7 +177,7 @@ https://datadoghq.slack.com/
 
 **Frédéric Harper**
 
-fharper@oocz.net
+fharper@datadoghq.com
 
 fred.dev
 
