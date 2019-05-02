@@ -1,6 +1,6 @@
 background-color: #FFFFFF
 text: #00000, alignment(right)
-header: #00000, line-height(18), text-scale(2.9)
+header: #00000, line-height(18), text-scale(2.5)
 footer-style: #777777, alignment(right), line-height(8), text-scale(0.5), Avenir Next Regular
 code: alignment(left), Monako, line-height(1.5)
 build-lists: true
@@ -149,7 +149,7 @@ cp ~/Documents/code/datadog/integrations-extras/awesome/datadog_checks/awesome/d
 
 ^
 celebrate
-go to [https://app.datadoghq.com/check/summary](https://app.datadoghq.com/check/summary)
+go to https://app.datadoghq.com/check/summary
 
 ---
 
