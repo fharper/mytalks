@@ -13,10 +13,47 @@ build-lists: true
 <!---
 
 Building Web Apps That Don’t Suck
+45 minutes
+
+#
+# ABSTRACT
+#
 
 As developers, it’s important to think about our users first: you need to create an awesome experience and part of the equation is to deliver quality, fast. Unfortunately, we lost the habit of being efficient with our code and assets, getting used, if you are lucky, to more and more power from our devices and internet connections. But our users want their data now. Waiting is painful, you know it! It’s not an option anymore…
 
 Based on personal experience, this presentation is about concrete tips and tricks to help you optimize your masterpiece, using HTML, CSS, and JavaScript (most applicable to other languages).
+
+#
+# SETUP
+#
+
+npm install -g uglify-js
+npm install -g cssnano-cli
+npm install -g html-minifier
+npm install -g hint
+npm install -g imagemin-cli
+npm install -g imagemin-pngquant
+npm install -g imagemin-jpegtran
+npm install -g imagemin-jpeg-recompress
+npm install -g snyk
+
+#
+# BROWSER
+#
+
+http://lisperator.net/uglifyjs/
+https://cssnano.co/
+https://github.com/kangax/html-minifier
+https://webhint.io/
+https://developers.google.com/web/tools/lighthouse/
+https://github.com/imagemin/imagemin-cli
+https://shortpixel.com/
+https://mochajs.org/
+https://qunitjs.com/
+https://github.com/OWASP/CheatSheetSeries
+https://snyk.io/
+https://docs.npmjs.com/cli/audit
+https://securityheaders.com
 
 -->
 
@@ -32,6 +69,8 @@ fred.dev
 ![](../images/unicorn.jpg)
 
 [.footer: https://unsplash.com/photos/opkaRk20tAw]
+
+^ START CAMTASIA!
 
 ---
 
@@ -125,7 +164,7 @@ fred.dev
 
 <br />
 
-1. I'm microtasking
+1. I'm (micro)tasking
 1. I'm local
 1. I'm bored
 
@@ -233,9 +272,10 @@ the **easier** it is to hit.
 ## **demo**
 
 ^
-http://lisperator.net/uglifyjs/
-https://cssnano.co/
-https://github.com/kangax/html-minifier
+use HTML5 boilerplate
+uglifyjs a > ab
+html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace--use-short-doctype --minify-css true --minify-js true a > ab
+cssnano
 
 ---
 
@@ -245,7 +285,7 @@ https://github.com/kangax/html-minifier
 
 - avoid or minimize 3xx redirections
 - GZIP encoding (htaccess, web.config)
-- image sprites when it make sense
+- image sprites (when it make sense)
 - use CDN (Content Distribution Network)
 - configure the HTTP Cache Headers (Apache)
 - configure HTTP Expires Response Header (IIS)
@@ -253,13 +293,15 @@ https://github.com/kangax/html-minifier
 
 ---
 
-<!--- Google Lighthouse -->
+<!--- webhint linter -->
 
-# Google Lighthouse
+# webhint
 ## **demo**
 
 ^
-https://developers.google.com/web/tools/lighthouse/
+hint https://fred.dev
+Also:
+Google Lighthouse
 
 ---
 
@@ -299,8 +341,23 @@ decompressed to memory = up to 8mb
 ## **demo**
 
 ^
-https://github.com/imagemin/imagemin-cli
-https://shortpixel.com/
+use company background OR something from unsplash
+imagemin --plugin=jpegtran a > ab
+imagemin --plugin=jpeg-recompress a > ab
+Also:
+ShortPixel
+
+---
+
+<!--- tests -->
+
+[.text: #00000, alignment(right), text-scale(0.9), line-height(1.5)]
+
+# tests
+
+- create tests: unit tests, integration tests...
+- test yourself, be the dummiest user you can be
+- use framework like Mocha or QUnit for JavaScript/Node.js
 
 ---
 
@@ -330,8 +387,8 @@ https://shortpixel.com/
 - you don’t always need a framework or a library
 - put as much logic as you can on the server-side
 - don’t fix it if it’s not broken (human aversion to change)
-- create tests, test, and retest
-- think accessibility (a11y, pa11y, axe tool)
+- think accessibility (a11y, pa11y, axe tool & hint)
+- SSL all the things
 
 
 ---
@@ -345,40 +402,10 @@ https://shortpixel.com/
 <!--- Security -->
 
 # security
-### OWASP Secure Coding Cheat Sheet
 
-User Authentication
-Password Complexity
-Session Management
-Access Control
-Input Data Validation
-Output Encoding
-Secure Transmission / Network Layer security
-File Uploads
-Error Handling
+<br />
 
-^
-https://www.owasp.org/index.php/Secure_Coding_Cheat_Sheet
-
----
-
-<!--- Security -->
-
-# security
-### OWASP Secure Coding Cheat Sheet
-
-Logging and Auditing
-Cryptography
-Cookie Management
-Unvalidated Redirects and Forwards
-SQL Injection
-Cross Site Scripting
-Cross Site Request Forgery
-Preventing Malicious Site Framing (ClickJacking)
-Insecure Direct Object references
-
-^
-https://www.owasp.org/index.php/Secure_Coding_Cheat_Sheet
+![original 40%](../images/OWASP-cheatsheet.png)
 
 ---
 
@@ -388,15 +415,10 @@ https://www.owasp.org/index.php/Secure_Coding_Cheat_Sheet
 ## **demo**
 
 ^
-npm also
-Also https://securityheaders.com
-
----
-
-<!--- pa11y -->
-
-# pa11y
-## **demo**
+use npx for demo
+snyk monitor
+npm audit
+Security Headers
 
 ---
 
@@ -414,11 +436,11 @@ Also https://securityheaders.com
 
 1. Don’t make us think about the interface
 <br/>
-1. Insulate us from that complexity
+1. Insulate us from the complexity
 <br/>
-1. Make accomplishing our goals easier
+1. Make accomplishing our goals easier & faster
 <br/>
-1. Help users be awesome in the moment!
+1. Help the users be awesome in the moment!
 
 ---
 
@@ -428,9 +450,6 @@ Also https://securityheaders.com
 
 **slides**
 https://github.com/fharper/mytalks
-
-**code**
-https://github.com/fharper/XXX
 
 **video**
 https://www.youtube.com/user/fredericharper
