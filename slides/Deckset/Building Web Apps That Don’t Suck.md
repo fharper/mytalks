@@ -61,7 +61,7 @@ https://securityheaders.com
 # that don't suck
 
 **Frédéric Harper**
-Developer Advocate - DigitalOcean?
+Developer Advocate - nowhere
 
 @fharper
 fred.dev
@@ -145,6 +145,12 @@ fred.dev
 ![](../images/catwarning.jpg)
 
 [.footer: https://www.flickr.com/photos/funadium/1179006213/]
+
+^
+tired of new shiny things
+lazy
+believe in small steps can have big impact
+build on what you know or knwon
 
 ---
 
@@ -275,7 +281,6 @@ the **easier** it is to hit.
 use HTML5 boilerplate
 uglifyjs a > ab
 html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace--use-short-doctype --minify-css true --minify-js true a > ab
-cssnano
 
 ---
 
@@ -291,6 +296,9 @@ cssnano
 - configure HTTP Expires Response Header (IIS)
 - cache the content
 
+^
+Things I didn't do yet since I just moved my site to DigitalOcean
+
 ---
 
 <!--- webhint linter -->
@@ -301,7 +309,7 @@ cssnano
 ^
 hint https://fred.dev
 Also:
-Google Lighthouse
+Google Lighthouse (inside Chrome Dev's tools)
 
 ---
 
@@ -313,6 +321,9 @@ Google Lighthouse
 - use the right image format (PNG, JPEG…)
 - use image preview for videos
 - compress your images
+
+^
+most basic & underestimate thing
 
 ---
 
@@ -344,8 +355,7 @@ decompressed to memory = up to 8mb
 use company background OR something from unsplash
 imagemin --plugin=jpegtran a > ab
 imagemin --plugin=jpeg-recompress a > ab
-Also:
-ShortPixel
+Also: ShortPixel
 
 ---
 
@@ -358,6 +368,7 @@ ShortPixel
 - create tests: unit tests, integration tests...
 - test yourself, be the dummiest user you can be
 - use framework like Mocha or QUnit for JavaScript/Node.js
+- test, test and test
 
 ---
 
@@ -368,12 +379,12 @@ ShortPixel
 # misc js
 
 - use `'strict'` mode
-- don’t scale images in drawImage (cache in offscreen canvas)
-- use WebGL instead of Context 2D (free up CPU for GPU)
 - avoid creating new object when it’s possible
 - load JavaScript files at the end of the page
 - asynchronously load scripts (async) and fetch data
 - JSON is faster than XML
+- don’t scale images in drawImage (cache in offscreen canvas)
+- use WebGL instead of Context 2D (free up CPU for GPU)
 
 ---
 
@@ -383,13 +394,15 @@ ShortPixel
 
 # misc
 
-- CSS for large background images
+- don’t fix it if it’s not broken (human aversion to change)
 - you don’t always need a framework or a library
 - put as much logic as you can on the server-side
-- don’t fix it if it’s not broken (human aversion to change)
 - think accessibility (a11y, pa11y, axe tool & hint)
 - SSL all the things
+- don’t fix it if it’s not broken
 
+^
+jQuery to get an element from DOM
 
 ---
 
