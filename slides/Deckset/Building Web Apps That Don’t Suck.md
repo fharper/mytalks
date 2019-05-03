@@ -29,7 +29,7 @@ Based on personal experience, this presentation is about concrete tips and trick
 
 npm install -g uglify-js
 npm install -g cssnano-cli
-npm install -g html-minifier
+npm install -g babel-minify
 npm install -g hint
 npm install -g imagemin-cli
 npm install -g imagemin-pngquant
@@ -43,7 +43,7 @@ npm install -g snyk
 
 http://lisperator.net/uglifyjs/
 https://cssnano.co/
-https://github.com/kangax/html-minifier
+https://github.com/babel/minify
 https://webhint.io/
 https://developers.google.com/web/tools/lighthouse/
 https://github.com/imagemin/imagemin-cli
@@ -279,7 +279,7 @@ the **easier** it is to hit.
 
 ^
 use HTML5 boilerplate
-uglifyjs a > ab
+minify a > ab
 html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace--use-short-doctype --minify-css true --minify-js true a > ab
 
 ---
