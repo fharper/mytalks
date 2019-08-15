@@ -1,0 +1,6 @@
+do_token = ""
+pub_key = "$HOME/.ssh/id_rsa.pub"
+pvt_key = "$HOME/.ssh/id_rsa"
+ssh_fingerprint = ""
+access_id = ""
+secret_key = ""
