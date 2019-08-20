@@ -42,7 +42,7 @@ resource "digitalocean_database_cluster" "scaling-dbass" {
 resource "digitalocean_kubernetes_cluster" "scaling-k8s" {
   name    = "scaling-k8s"
   region  = "nyc3"
-  version = "1.14.4-do.1"
+  version = "1.15.2-do.0"
 
   node_pool {
     name       = "scaling-k8s--pool"
