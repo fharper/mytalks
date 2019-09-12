@@ -61,7 +61,8 @@ https://securityheaders.com
 # that don't suck
 
 **Frédéric Harper**
-Developer Advocate - nowhere
+Senior Developer Advocate
+DigitalOcean
 
 @fharper
 fred.dev
@@ -477,7 +478,7 @@ https://www.youtube.com/user/fredericharper
 
 **Frédéric Harper**
 <br/>
-fharper@oocz.net
+fred@do.co
 fred.dev
 
 ![original](../images/fharper.jpg)
