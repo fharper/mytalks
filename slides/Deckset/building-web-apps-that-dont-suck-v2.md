@@ -322,25 +322,6 @@ most basic & underestimate thing
 
 ---
 
-<!--- Rendering -->
-
-[.text: #00000, alignment(center)]
-
-# rendering
-
-solid black texture sized 1920x1080
-
-:arrow_down:
-
-once compressed = ~5kb PNG
-
-:arrow_down:
-
-decompressed to memory = up to 8mb
-(1920 x 1080 x 4 bytes per pixels [rgba]) = 8294400 bytes
-
----
-
 <!--- Imagemin demo -->
 
 # imagemin
