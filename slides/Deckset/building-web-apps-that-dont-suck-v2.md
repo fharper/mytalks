@@ -423,8 +423,6 @@ Security Headers
 
 <br/>
 
-1. Don’t make us think about the interface
-<br/>
 1. Insulate us from the complexity
 <br/>
 1. Make accomplishing our goals easier & faster
