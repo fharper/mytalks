@@ -427,7 +427,7 @@ Security Headers
 <br/>
 1. Make accomplishing our goals easier & faster
 <br/>
-1. Help the users be awesome in the moment!
+1. Help us be awesome in the moment!
 
 ---
 
