@@ -438,7 +438,7 @@ Security Headers
 **slides**
 https://github.com/fharper/mytalks
 
-**video**
+**recording**
 https://www.youtube.com/user/fredericharper
 
 ---
