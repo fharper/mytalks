@@ -425,7 +425,7 @@ Security Headers
 
 1. Insulate us from the complexity
 <br/>
-1. Make accomplishing our goals easier & faster
+1. Make us accomplish our goals faster & securily
 <br/>
 1. Help us be awesome in the moment!
 
