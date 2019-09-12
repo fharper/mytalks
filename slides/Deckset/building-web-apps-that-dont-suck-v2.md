@@ -155,9 +155,9 @@ build on what you know or knwon
 
 ---
 
-<!--- UX & UI -->
+<!--- Architect -->
 
-# **UX & UI**
+# **architect**
 
 ---
 
