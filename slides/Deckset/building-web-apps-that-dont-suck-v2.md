@@ -177,6 +177,13 @@ build on what you know or knwon
 
 ---
 
+<!--- Design -->
+
+# **design**
+
+---
+
+
 <!--- XKCD university -->
 
 ![150%](../images/xkcd-university_website.png)
