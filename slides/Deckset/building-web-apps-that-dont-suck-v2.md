@@ -215,12 +215,6 @@ build on what you know or knwon
 
 ---
 
-<!--- flying simple smartwatch -->
-
-![fit](../images/flying-app-simple-watch.png)
-
----
-
 <!--- comfort zone -->
 
 # comfort zone
