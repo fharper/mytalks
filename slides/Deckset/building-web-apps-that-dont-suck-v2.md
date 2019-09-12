@@ -189,7 +189,7 @@ build on what you know or knwon
 
 # mobile first
 
-![inline 150%](../images/desktop-first.png)
+![inline 100%](../images/desktop-first.png)
 
 ---
 
@@ -197,7 +197,7 @@ build on what you know or knwon
 
 # mobile first
 
-![inline 150%](../images/mobile-first.png)
+![inline 100%](../images/mobile-first.png)
 
 ---
 
