@@ -1,0 +1,6 @@
+[submodule "code/code/Building"]
+	path = code/code/Building
+	url = git@github.com:snyk/goof.git
+[submodule "code/Building"]
+	path = code/Building
+	url = git@github.com:snyk/goof.git
