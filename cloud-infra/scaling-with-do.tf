@@ -29,10 +29,19 @@ resource "digitalocean_spaces_bucket" "scaling-space" {
 
 #Create a PostgreSQL dbaas
 # Create a new database cluster
-resource "digitalocean_database_cluster" "scaling-dbass" {
-  name = "scaling-dbass"
+resource "digitalocean_database_cluster" "scaling-dbass-postgresql" {
+  name = "scaling-dbass-postgresql"
   engine     = "pg"
   version    = "11"
+  size       = "db-s-1vcpu-1gb"
+  region     = "nyc3"
+  node_count = 1
+}
+
+resource "digitalocean_database_cluster" "scaling-dbass-mysql" {
+  name = "scaling-dbass-mysql"
+  engine     = "mysql"
+  version    = "8"
   size       = "db-s-1vcpu-1gb"
   region     = "nyc3"
   node_count = 1
@@ -98,7 +107,8 @@ resource "digitalocean_project" "scaling" {
   description = "Contains the resources I need for my scaling with DO talk"
   resources   = [
     "${digitalocean_droplet.scaling-wordpress.urn}",
-    "${digitalocean_database_cluster.scaling-dbass.urn}",
+    "${digitalocean_database_cluster.scaling-dbass-postgresql.urn}",
+    "${digitalocean_database_cluster.scaling-dbass-mysql.urn}",
     "${digitalocean_loadbalancer.scaling-lbass.urn}",
     "${digitalocean_droplet.scaling-droplet1.urn}",
     "${digitalocean_droplet.scaling-droplet2.urn}",
