@@ -9,7 +9,7 @@ resource "digitalocean_droplet" "scaling-wordpress" {
     image = "wordpress-18-04"
     name = "scaling-wordpress"
     region = "nyc3"
-    size = "512mb"
+    size = "s-1vcpu-1gb"
     ssh_keys = [
       "${var.ssh_fingerprint}"
     ]
@@ -56,14 +56,14 @@ resource "digitalocean_droplet" "scaling-droplet1" {
     image = "ubuntu-18-04-x64"
     name = "scaling-droplet1"
     region = "nyc3"
-    size = "512mb"
+    size = "s-1vcpu-1gb"
 }
 
 resource "digitalocean_droplet" "scaling-droplet2" {
     image = "ubuntu-18-04-x64"
     name = "scaling-droplet2"
     region = "nyc3"
-    size = "512mb"
+    size = "s-1vcpu-1gb"
 }
 
 resource "digitalocean_certificate" "scaling-certificate" {
