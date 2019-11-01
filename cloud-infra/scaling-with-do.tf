@@ -22,8 +22,8 @@ resource "digitalocean_droplet" "scaling-wordpress" {
 }
 
 #Create a Space
-resource "digitalocean_spaces_bucket" "scaling-space" {
-  name   = "scaling-space"
+resource "digitalocean_spaces_bucket" "scaling-spaces" {
+  name   = "scaling-spaces"
   region = "nyc3"
 }
 
@@ -112,6 +112,6 @@ resource "digitalocean_project" "scaling" {
     "${digitalocean_loadbalancer.scaling-lbass.urn}",
     "${digitalocean_droplet.scaling-droplet1.urn}",
     "${digitalocean_droplet.scaling-droplet2.urn}",
-    "${digitalocean_spaces_bucket.scaling-space.urn}",
+    "${digitalocean_spaces_bucket.scaling-spaces.urn}",
   ]
 }
