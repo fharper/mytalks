@@ -37,10 +37,15 @@ DigitalOcean
 
 <!--- Giveaway -->
 
-![original](../images/do-sammy-slippers.jpeg)
+![](../images/do-sammy-slippers.jpeg)
 
-[.footer-style: #FFFFFF, alignment(left), text-scale(3)]
-[.footer: twitter: @digitalocean <br/>Instagram: thedigitalocean  <br/>\#itshatchening]
+ \#itshatchening
+
+![inline 50%](../images/twitter.png)
+digitalocean
+
+![inline 50% right](../images/instagram.png)
+thedigitalocean
 
 ---
 
