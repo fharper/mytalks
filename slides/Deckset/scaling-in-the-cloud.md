@@ -122,7 +122,7 @@ DigitalOcean
 
 <!--- Demo: droplet -->
 
-![100% filtered](../images/do-droplets.png)
+![100%](../images/do-droplets.png)
 
 ^
 Free DNS management
