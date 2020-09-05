@@ -41,10 +41,10 @@ DigitalOcean
 
  \#itshatchening
 
-![inline 50%](../images/twitter.png)
+![inline 25%](../images/twitter.png)
 digitalocean
 
-![inline 50% right](../images/instagram.png)
+![inline 25% right](../images/instagram.png)
 thedigitalocean
 
 ---
@@ -158,6 +158,14 @@ https://cloud.digitalocean.com/droplets/new
 ![](../images/storyboard.jpg)
 
 [.footer: https://unsplash.com/photos/tZc3vjPCk-Q]
+
+---
+
+<!--- Lean startup -->
+
+![40%](../images/build-measure-learn.png)
+
+[.footer: https://hackernoon.com/launch-your-product-training-like-a-lean-startup-644a24143ce0]
 
 ---
 
