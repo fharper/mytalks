@@ -1,23 +1,24 @@
 variable "do_token" {
-  type = "string"
+  type = string
 }
 
 variable "pub_key" {
-  type = "string"
+  type = string
 }
 
 variable "pvt_key" {
-  type = "string"
+  type = string
 }
 
 variable "ssh_fingerprint" {
-  type = "string"
+  type = string
 }
 
 variable "access_id" {
-  type = "string"
+  type = string
 }
 
 variable "secret_key" {
-  type = "string"
+  type = string
 }
+
